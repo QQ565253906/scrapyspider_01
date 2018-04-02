@@ -6,6 +6,7 @@
 from scrapy import cmdline
 
 
-name = 'douban_movie_top250'
+#name = 'douban_movie_top250'
+name = 'douban_ajax'
 cmd = 'scrapy crawl {0}'.format(name)
 cmdline.execute(cmd.split())
